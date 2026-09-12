@@ -16,7 +16,7 @@ E-commerce businesses lose revenue in two opposite ways: stockouts on high-deman
 - Package findings into a business-facing dashboard
 
 ## 4. Dataset
-Synthetic e-commerce order-line data, ~91,600 clean rows, 18 months (Apr 2024–Sep 2025), 50 products across 5 categories, 5 regions, ~6,000 customers. Generated with a fixed random seed and built-in seasonality, demand tiers, regional weighting, and intentional data-quality issues (duplicates, missing values, invalid entries) to demonstrate cleaning skills. Full generation logic is in `notebooks/01_generate_dataset.ipynb`.
+Synthetic e-commerce order-line data, ~91,600 clean rows, 18 months (Apr 2024–Sep 2025), 50 products across 5 categories, 5 regions, ~6,000 customers. Generated with a fixed random seed and built-in seasonality, demand tiers, regional weighting, and intentional data-quality issues (duplicates, missing values, invalid entries) to demonstrate cleaning skills. Full generation logic is in the google colab notebook.
 
 ## 5. Tools Used
 Google Colab (Python: pandas, numpy, matplotlib, statsmodels), SQL Server Management Studio 22 (T-SQL), Excel/CSV, Power BI Desktop.

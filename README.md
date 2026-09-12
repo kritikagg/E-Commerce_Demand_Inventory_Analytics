@@ -62,6 +62,7 @@ Products are scored into HIGH/MEDIUM/LOW risk using an additive rule that weight
 Three pages: Executive Overview (revenue/profit/order KPIs, trends, top products, regional performance), Demand Analytics (demand ranking, volatility, historical vs. forecast), Inventory Risk (risk-level KPIs, risk matrix scatter, reorder-point comparison, conditional formatting on risk level).
 
 12. Key Findings
+    
 Top 10 products generate ~53% of total revenue
 9 of the top 20 revenue products are currently below their computed reorder point
 Festive-season (Oct–Dec) monthly demand runs ~42% above other months
@@ -69,20 +70,26 @@ Festive-season (Oct–Dec) monthly demand runs ~42% above other months
 Discount depth shows a mild positive association with order size, not a dramatic one
 North and South regions contribute over half of total revenue; Central lags at ~10%
 Category-level YoY growth is essentially flat (−1% to +1.6%) once compared on matching calendar months — a naive half-over-half comparison would have misleadingly shown decline across all categories due to a seasonal confound
+
 13. Business Recommendations
+    
 Prioritize supply reliability and inventory buffers for the top-10 revenue products
 Trigger immediate replenishment review for the 9 at-risk top-20 products
 Build seasonal (Q4) safety-stock buffers rather than a flat year-round policy
 Run clearance/markdown campaigns on slow-moving, excess-inventory SKUs
 Validate discount ROI against margin impact before scaling promotions
 Investigate the Central region's lower revenue share (demand vs. fulfillment gap)
+
 14. Limitations
+    
 Data is synthetic; patterns are realistic but not real market data
 Cost is modeled as a flat 60% of unit price (no real COGS data)
 Forecasting covers only the top 10 products by revenue, not the full catalog
 Safety stock assumes a fixed 95% service level for all products; a real business might vary this by product criticality
 SQL-side average demand differs slightly from the Python version because zero-sale days aren't represented as rows in FactSales
+
 15. Future Improvements
+    
 Extend forecasting to all products or use a hierarchical model
 Incorporate real supplier lead-time variability instead of a fixed value per product
 Add customer-level segmentation (RFM analysis)

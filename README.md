@@ -1,4 +1,4 @@
-# E-Commerce_Demand_Inventory_Analytics
+# E-Commerce Demand Inventory Analytics
 
 1. Project Overview
 
